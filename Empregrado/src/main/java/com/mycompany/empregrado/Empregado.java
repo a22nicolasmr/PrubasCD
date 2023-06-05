@@ -27,5 +27,7 @@ public class Empregado {
     public void setSalario(int Salario) {
         this.Salario = Salario;
     }
-    
+    public int obterAnu(int salario){
+        return salario*6;
+    }
 }
